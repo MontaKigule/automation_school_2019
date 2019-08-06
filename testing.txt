@@ -1,0 +1,218 @@
+Microsoft Windows [Version 10.0.16299.1268]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\S5JMAE>cd automation_school_2019
+
+C:\Users\S5JMAE\automation_school_2019>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\S5JMAE\automation_school_2019>dir
+ Volume in drive C is System
+ Volume Serial Number is 76E2-8C30
+
+ Directory of C:\Users\S5JMAE\automation_school_2019
+
+06.08.2019  14:29    <DIR>          .
+06.08.2019  14:29    <DIR>          ..
+04.08.2019  18:07               413 Main.class
+04.08.2019  17:35               121 Main.java
+04.08.2019  18:17               425 Program.class
+06.08.2019  14:29    <DIR>          test-master
+               3 File(s)            959 bytes
+               3 Dir(s)  396 186 542 080 bytes free
+
+C:\Users\S5JMAE\automation_school_2019>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../.IntelliJIdea2018.1/
+        ../.IntelliJIdea2018.3/
+        ../.cisco/
+        ../.gitconfig
+        ../.gradle/
+        ../.m2/
+        ../.ssh/
+        ../3D Objects/
+        ../AppData/
+        ../Contacts/
+        ../Desktop/
+        ../Documents.lnk
+        ../Documents/
+        ../Downloads/
+        ../Favorites/
+        ../IdeaProjects/
+        ../IntelGraphicsProfiles/
+        ../Links/
+        ../MicrosoftEdgeBackups/
+        ../Music/
+        ../NTUSER.DAT
+        ../NTUSER.DAT{788f2d70-6f62-11e8-8d34-001dd8b71c03}.TM.blf
+        ../NTUSER.DAT{788f2d70-6f62-11e8-8d34-001dd8b71c03}.TMContainer00000000000000000001.regtrans-ms
+        ../NTUSER.DAT{788f2d70-6f62-11e8-8d34-001dd8b71c03}.TMContainer00000000000000000002.regtrans-ms
+        ../OneDrive - Swiss Reinsurance Company Ltd/
+        ../OneDrive/
+        ../OutlookFiles/
+        ../Pictures.lnk
+        ../Pictures/
+        ../RICH.Outlook/
+        ../Saved Games/
+        ../Searches/
+        ../SharePoint Sites/
+        ../Videos/
+        ../automation_school_2019-master/
+        ./
+        ../ntuser.dat.LOG1
+        ../ntuser.dat.LOG2
+        ../ntuser.ini
+        ../ntuser.pol
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\S5JMAE\automation_school_2019>cd c://
+
+c:\>cd srdev
+
+c:\srdev>mkdir automation_school_2019
+
+c:\srdev>cd automation_school_2019
+
+c:\srdev\automation_school_2019>git clone https://github.com/MontaKigule/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+c:\srdev\automation_school_2019>git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+c:\srdev\automation_school_2019>git pull
+fatal: Not a git repository (or any of the parent directories): .git
+
+c:\srdev\automation_school_2019>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\srdev\automation_school_2019>dir
+ Volume in drive C is System
+ Volume Serial Number is 76E2-8C30
+
+ Directory of c:\srdev\automation_school_2019
+
+06.08.2019  14:55    <DIR>          .
+06.08.2019  14:55    <DIR>          ..
+06.08.2019  14:56    <DIR>          test
+               0 File(s)              0 bytes
+               3 Dir(s)  396 186 181 632 bytes free
+
+c:\srdev\automation_school_2019>git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+c:\srdev\automation_school_2019>cd ..
+
+c:\srdev>git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+c:\srdev>cd test
+The system cannot find the path specified.
+
+c:\srdev>cd automation_school_2019
+
+c:\srdev\automation_school_2019>cd test
+
+c:\srdev\automation_school_2019\test>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        data.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+c:\srdev\automation_school_2019\test>git add --all
+
+c:\srdev\automation_school_2019\test>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   data.txt
+
+
+c:\srdev\automation_school_2019\test>git commit -m "Add data file"
+[master 2a0a758] Add data file
+ 1 file changed, 16 insertions(+)
+ create mode 100644 data.txt
+
+c:\srdev\automation_school_2019\test>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+c:\srdev\automation_school_2019\test>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   data.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\srdev\automation_school_2019\test>git add --all
+
+c:\srdev\automation_school_2019\test>git commit -m "Some changes in data file"
+[master 0d6741a] Some changes in data file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+c:\srdev\automation_school_2019\test>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+c:\srdev\automation_school_2019\test>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': MontaKigule
+Password for 'https://MontaKigule@github.com':
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.04 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/MontaKigule/test.git
+   f236790..0d6741a  master -> master
+
+c:\srdev\automation_school_2019\test>
