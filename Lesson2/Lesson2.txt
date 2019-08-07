@@ -1,0 +1,22 @@
+import java.util.Scanner;
+import java.lang.String;
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
+
+public class Lesson2 {
+
+    public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter Name:");
+        String name = scanner.nextLine();
+	System.out.println("Enter Surname:");
+	String surname = scanner.nextLine();
+        System.out.println(String.format("%s %s, lesson 2 is finished", name, surname));	
+	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+	LocalDateTime now = LocalDateTime.now();
+	System.out.println(dtf.format(now));
+    }
+
+}
+
+
